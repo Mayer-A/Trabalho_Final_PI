@@ -10,8 +10,7 @@ $nomeUsuario = isset($_SESSION['nome']) ? $_SESSION['nome'] : '';
     <img src="../img/eevee.png" alt="Eevee" class="logo">
 
     <nav class="menu">
-        <a href="../index.html">Home</a>
-        <a href="../html/cadastro_aluno.html">Cadastro</a>
+        <a href="../index.php">Home</a>
         <a href="lista.php">Lista</a>
         <a href="#contact">Compra</a>
         <?php if ($nomeUsuario !== ''): ?>
